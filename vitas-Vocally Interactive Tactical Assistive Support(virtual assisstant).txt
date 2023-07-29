@@ -1,15 +1,15 @@
-import speech_recognition as sr    #To convert speech into text
-import pyttsx3                     #To convert text into speech
-import datetime                    #To get the date and time
-import wikipedia                   #To get information from wikipedia
-import webbrowser                  #To open websites
-import os                          #To open files
-import time                        #To calculate time
-import subprocess                  #To open files
-from tkinter import *              #For the graphics
-import pyjokes                     #For some really bad jokes
-from playsound import playsound    #To playsound
-import keyboard                    #To get keyboard
+import speech_recognition as sr    
+import pyttsx3                     
+import datetime                    
+import wikipedia                   
+import webbrowser                  
+import os                          
+import time                        
+import subprocess                  
+from tkinter import *              
+import pyjokes                     
+from playsound import playsound    
+import keyboard                    
   
 name_file = open(r'C:\Users\pc\AppData\Local\Programs\Python\Python36-32\filename.ext')
 name_assistant = name_file.read()
